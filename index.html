@@ -57,40 +57,177 @@
         <article class="row w-100">
             <div class="col-lg-6 d-flex align-items-center gap-5">
                 <div class="d-flex flex-column gap-3 fs-3">
-                    <i class='bx bxl-linkedin-square'></i>
-                    <i class='bx bxl-github' ></i>
-                    <i class='bx bxl-facebook-square' ></i>
-                    <i class='bx bxl-whatsapp-square' ></i>
+                    <a href="#"><i class='bx bxl-linkedin-square'></i></a>
+                    <a href="#"><i class='bx bxl-github'></i></a>
+                    <a href="#"><i class='bx bxl-facebook-square'></i></a>
+                    <a href="#"><i class='bx bxl-whatsapp-square'></i></a>
                 </div>
-                <img src="https://cdn.pixabay.com/photo/2016/08/08/09/17/avatar-1577909_1280.png" class="w-75 rounded-5">
+                <img src="https://cdn.pixabay.com/photo/2016/08/08/09/17/avatar-1577909_1280.png"
+                    class="w-75 rounded-5">
             </div>
 
             <div class="col-lg-6 d-flex flex-column justify-content-center">
-                <h4>Hi! My name is</h4>
-                <h1>Slim Shady</h1>
-                <h3>Rapper and lyricist</h3>
+                <div>
+                    <h4>Oi, meu nome é</h4>
+                    <h1>Mariana Lopes</h1>
+                    <h3>Trabalhadora assalariada</h3>
+                </div>
+                <div>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptas beatae nobis laboriosam
+                        aspernatur ullam autem maxime consequatur facere. Molestias dolor
+                        odit deleniti iusto consectetur obcaecati veniam consequuntur. Voluptate, accusamus! Aliquam.
+                    </p>
+                </div>
+                <div>
+                    <a class="btn btn-lg btn-success" href="">Baixar currículo</a>
+                    <a class="btn btn-lg btn-warning" href="#contatos">Contato</a>
+                </div>
             </div>
-            <div>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptas beatae nobis laboriosam aspernatur ullam autem maxime consequatur facere. Molestias dolor 
-                    odit deleniti iusto consectetur obcaecati veniam consequuntur. Voluptate, accusamus! Aliquam.</p>
+        </article>
+    </section>
+
+    <section class="container w-100 sessao d-flex justify-content-center align-items-center" id="sobre">
+        <article class="row w-100">
+            <div class="col-lg-6 d-flex justify-content-center">
+                <img src="https://cdn.pixabay.com/photo/2016/08/08/09/17/avatar-1577909_1280.png"
+                    class="w-75 rounded-5">
             </div>
-            <div>
-                <a class="btn btn-lg btn-success" href="">Baixar currículo</a>
-                <a class="btn btn-lg btn-warning" href="#contatos">Contato</a>
+
+            <div class="col-lg-6 col-md-12">
+                <h1>Sobre mim</h1>
+                <p>Venus, planet of love, was destroyed by global warming.
+                    Did its people want too much, too? Did its people want too much? And I don't want your pity, I just
+                    want somebody near me. Guess I'm a coward, I just want to feel alright. And I know no one will save
+                    me, I just need someone to kiss. Give me one good honest kiss and I'll be alright.</p>
+                <h4>Habilidades</h4>
+                <section class="w-75 d-flex flex-column gap-2">
+                    <span>Front-end:</span>
+                    <div class="progress" role="progressbar" aria-label="Animated striped example" aria-valuenow="75"
+                        aria-valuemin="0" aria-valuemax="100">
+                        <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 15%"></div>
+                    </div>
+
+                    <span>Back-end:</span>
+                    <div class="progress" role="progressbar" aria-label="Animated striped example" aria-valuenow="75"
+                        aria-valuemin="0" aria-valuemax="100">
+                        <div class="progress-bar progress-bar-striped progress-bar-animated bg-danger"
+                            style="width: 1%"></div>
+                    </div>
+                </section>
+
+                <div class="mt-4">
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        <span class="d-flex align-items-center gap-2"><i class='bx bxs-graduation'></i>Formação
+                            Acadêmica</span>
+                    </button>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h1 class="modal-title fs-5" id="exampleModalLabel">
+                                        <span class="d-flex align-items-center gap-2"><i
+                                                class='bx bxs-graduation'></i>Formação Acadêmica</span>
+                                    </h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    Sou formada em Pedagogia e cursando Análise e Desenvolvimento de Sistemas.
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary"
+                                        data-bs-dismiss="modal">Fechar</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="btn btn-success">
+                        <span class="d-flex align-items-center gap-2"><i class='bx bx-download'></i>Baixar
+                            currículo</span>
+                    </button>
+
+                </div>
+
             </div>
         </article>
     </section>
 
 
 
-    <section class="w-100 sessao d-flex justify-content-center align-items-center" id="sobre">
-        <h1>Sobre Mim</h1>
-    </section>
+    <section class="w-100 sessao d-flex flex-column justify-content-center align-items-center" id="habilidades">
+        <h1>Minhas Habilidades</h1>
+        <span>Tecnologias que domino</span>
 
+        <article class="row w-100 mt-3">
+            <div class="col-md-12 col-lg-6 d-flex justify-content-center">
+                <div class="card" style="width: 30rem;">
+                    <div class="card-body">
+                        <h2>Front-end</h2>
+                        <article class="mt-3 d-flex flex-row justify-content-around">
 
+                            <section class="d-flex flex-column gap-3">
+                                <div class="d-flex align-items-center gap-2">
+                                    <i class='bx bxl-html5 fs-1'></i>
+                                    <div class="d-flex flex-column">
+                                        <h5 class="mb-0">HTML 5</h5>
+                                        <span class="text-secondary">Baixo</span>
+                                    </div>
+                                </div>
 
-    <section class="w-100 sessao d-flex justify-content-center align-items-center" id="habilidades">
-        <h1>Habilidades</h1>
+                                <div class="d-flex align-items-center gap-2">
+                                    <i class='bx bxl-css3 fs-1'></i>
+                                    <div class="d-flex flex-column">
+                                        <h5 class="mb-0">CSS 3</h5>
+                                        <span class="text-secondary">Baixo</span>
+                                    </div>
+                                </div>
+
+                                <div class="d-flex align-items-center gap-2">
+                                    <i class='bx bxl-bootstrap fs-1'></i>
+                                    <div class="d-flex flex-column">
+                                        <h5 class="mb-0">Bootstrap</h5>
+                                        <span class="text-secondary">Baixíssimo</span>
+                                    </div>
+                                </div>
+                            </section>
+
+                            <section class="d-flex flex-column gap-3">
+                                <div class="d-flex align-items-center gap-2">
+                                    <i class='bx bxl-figma fs-1'></i>
+                                    <div class="d-flex flex-column">
+                                        <h5 class="mb-0">Figma</h5>
+                                        <span class="text-secondary">Moderado</span>
+                                    </div>
+                                </div>
+
+                                    <div class="d-flex align-items-center gap-2">
+                                        <i class='bx bxl-javascript fs-1'></i>
+                                        <div class="d-flex flex-column">
+                                            <h5 class="mb-0">JavaScript</h5>
+                                            <span class="text-secondary">Baixíssimo</span>
+                                        </div></div>
+
+                                        <div class="d-flex align-items-center gap-2">
+                                            <i class='bx bxl-github fs-1'></i>
+                                            <div class="d-flex flex-column">
+                                                <h5 class="mb-0">GitHub</h5>
+                                                <span class="text-secondary">Baixíssimo</span>
+                                            </div></div>
+                            </section>
+                        </article>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="col-md-12 col-lg-6 bg-body-tertiary">
+                <p>Conhecimentos de back-end</p>
+            </div>
+        </article>
     </section>
 
 
