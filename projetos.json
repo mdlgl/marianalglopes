@@ -1,0 +1,39 @@
+{
+    "front": [
+        {
+            "id": 1,
+            "titulo": "Portifólio",
+            "descricao": "Some quick example text to build on the card title and make up the bulk of the card's content.",
+            "git": "https://github.com/marianalglopes",
+            "demo": "https://marianalglopes.vercel.app/",
+            "imagem": "https://www.pulsecarshalton.co.uk/wp-content/uploads/2016/08/jk-placeholder-image.jpg"
+        },
+        {
+            "id": 2,
+            "titulo": "Lista de Atividades",
+            "descricao": "Some quick example text to build on the card title and make up the bulk of the card's content.",
+            "git": "https://github.com/marianalglopes",
+            "demo": "https://marianalglopes.vercel.app/",
+            "imagem": "https://www.pulsecarshalton.co.uk/wp-content/uploads/2016/08/jk-placeholder-image.jpg"
+        }
+    ],
+
+    "back": [
+        {
+            "id": 1,
+            "titulo": "API - Lista de Atividades",
+            "descricao": "Some quick example text to build on the card title and make up the bulk of the card's content.",
+            "git": "https://github.com/marianalglopes",
+            "demo": "https://marianalglopes.vercel.app/",
+            "imagem": "https://www.pulsecarshalton.co.uk/wp-content/uploads/2016/08/jk-placeholder-image.jpg"    
+        },
+        {
+            "id": 2,
+            "titulo": "API - Lanchonete",
+            "descricao": "Some quick example text to build on the card title and make up the bulk of the card's content.",
+            "git": "https://github.com/marianalglopes",
+            "demo": "https://marianalglopes.vercel.app/",
+            "imagem": "https://www.pulsecarshalton.co.uk/wp-content/uploads/2016/08/jk-placeholder-image.jpg"    
+        }
+    ]
+}
